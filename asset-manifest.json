@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/news-ganga-tv/static/css/main.5082e589.css",
+    "main.js": "/news-ganga-tv/static/js/main.dccfd389.js",
+    "static/media/gangatv.png": "/news-ganga-tv/static/media/gangatv.384389acf65e7f72836a.png",
+    "index.html": "/news-ganga-tv/index.html",
+    "main.5082e589.css.map": "/news-ganga-tv/static/css/main.5082e589.css.map",
+    "main.dccfd389.js.map": "/news-ganga-tv/static/js/main.dccfd389.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5082e589.css",
+    "static/js/main.dccfd389.js"
+  ]
+}
