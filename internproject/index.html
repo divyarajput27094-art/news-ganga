@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cognifyz Internship</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--  NAVBAR (Level 1 + Level 2 Hamburger) -->
+<header>
+    <h1>Cognifyz</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav id="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Apply</a>
+    </nav>
+</header>
+
+<!--  HERO SECTION (Level 3 Landing Page) -->
+<section class="hero">
+    <h2>Web Developer Internship Opportunities</h2>
+    <p>Gain real-world experience with Cognifyz Technologies.</p>
+    <button onclick="showAlert()">Apply Now</button>
+</section>
+
+<!--  FORM (Level 1) -->
+<section class="section">
+    <h2>Apply Form</h2>
+    <input type="text" id="name" placeholder="Enter your name">
+    <button onclick="submitForm()">Submit</button>
+</section>
+
+<!--  BUTTON COLOR CHANGE (Level 1 JS) -->
+<section class="section">
+    <h2>Click Button</h2>
+    <button id="colorBtn" onclick="changeColor()">Click Me</button>
+</section>
+
+<!--  CALCULATOR (Level 1 JS) -->
+<section class="section">
+    <h2>Simple Calculator</h2>
+    <input type="number" id="num1" placeholder="Number 1">
+    <input type="number" id="num2" placeholder="Number 2">
+    <button onclick="calculate()">Add</button>
+    <p id="result"></p>
+</section>
+
+<!--  CARDS (Level 2 Framework style layout) -->
+<section class="section cards">
+    <div class="card">Real Projects</div>
+    <div class="card">Mentorship</div>
+    <div class="card">Skill Growth</div>
+</section>
+
+<!--  IMAGE GALLERY (Level 3 Task 1) -->
+<section class="section">
+    <h2>Gallery</h2>
+    <img src="https://picsum.photos/200?random=1" onclick="enlarge(this)">
+    <img src="https://picsum.photos/200?random=2" onclick="enlarge(this)">
+</section>
+
+<!--  SLIDESHOW (Level 3 Task 1) -->
+<section class="section">
+    <h2>Slideshow</h2>
+    <img id="slide" src="https://picsum.photos/200">
+</section>
+
+<!--  FOOTER -->
+<footer>
+    <p>Contact: contact@cognifyz.com</p>
+</footer>
+<script src="script.js"></script> 
+</body>
+</html>
+ 
+
+
+
+
+
+
+
+
